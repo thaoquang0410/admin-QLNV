@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0.5% 0%;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px #7d7474;
+}
+.header-images {
+    display: block;
+    min-width: 100px;
+    height: 60px;
+    padding-left: 1%;
+}
+.header .avatar {
+    padding-top: 1%;
+    padding-right: 6%;
+    display: flex;
+}
+.ant-avatar.ant-avatar-icon {
+    background-color: #ff7d59;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 25px;
+}
+.ant-dropdown-trigger {
+    padding-top: 13px;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: bold;
+}
+.profile_avatar {
+    margin-left: 10px;
+    color: #7d7474;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 14px;
+}

@@ -1,0 +1,8 @@
+const OK = 200;
+const OK_fake = 201;
+const NOT_FOUND = 404;
+const UNAUTHORIZED = 401;
+const SERVER_ERROR = 500;
+const BAD_REQUEST = 400;
+
+export { OK, OK_fake, NOT_FOUND, UNAUTHORIZED, SERVER_ERROR, BAD_REQUEST }

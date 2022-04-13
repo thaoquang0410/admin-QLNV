@@ -1,0 +1,14 @@
+.check-box {
+    margin-bottom: 30px;
+    display: block;
+    text-align: left;
+}
+
+.check-box input {
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.check-box label {
+    color: white;
+}

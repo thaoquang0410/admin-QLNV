@@ -1,0 +1,39 @@
+.rowAdd {
+    margin-bottom: 30px;
+    display: flex;
+}
+.rowAdd label {
+    display: inline-block;
+    width: 30%;
+}
+.rowAdd .data_input {
+    width: 300px;
+    padding-right: 0px;
+}
+.btn-add {
+    margin-left: -200px !important;
+    background-color: #7acd81 !important;
+}
+.btn-cancel {
+    background-color: #ff5757 !important;
+}
+.btn-update {
+    background-color: #82c86b !important;
+}
+.ant-modal-footer {
+    display: flex;
+    justify-content: space-around;
+}
+.ant-modal-body {
+    margin-bottom: 0;
+    padding-bottom: 0 !important;
+}
+.ant-modal-content {
+    border-radius: 20px !important;
+}
+.rowAdd .data_input {
+    border-radius: 10px;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 10px !important;
+}

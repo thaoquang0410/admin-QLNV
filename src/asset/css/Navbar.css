@@ -1,0 +1,59 @@
+#components-layout-demo-side .logo {
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.ant-menu-root.ant-menu-inline {
+    background: #4caf93 !important;
+}
+.ant-menu-inline .ant-menu-item::after {
+    border-right: 0px solid #4caf93 !important;
+}
+.site-layout .site-layout-background {
+    background: #4caf93;
+}
+.ant-layout-sider-children {
+    background: #4caf93 !important;
+    padding-top: 20px;
+}
+.ant-menu-inline {
+    width: 100.5% !important;
+    border-right: none;
+}
+.ant-layout-sider-light .ant-layout-sider-trigger {
+    background: #4caf93 !important;
+}
+.ant-menu-inline.ant-menu-root .ant-menu-item {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    height: 54px;
+}
+.ant-layout-sider-trigger {
+    color: white !important;
+    font-size: 14px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: #f0f0f0;
+    color: #4caf93;
+}
+.ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+    background: #4caf93;
+    color: white;
+}
+.ant-menu-vertical {
+    border-right: 0px;
+}
+.anticon .anticon-left {
+    display: none;
+}
+.ant-menu-inline .ant-menu-item:not(:last-child) {
+    margin-bottom: 0px !important;
+}
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-item .anticon {
+    font-size: 18px;
+}
+.ant-menu.ant-menu-inline-collapsed {
+    width: 100.5% !important;
+}

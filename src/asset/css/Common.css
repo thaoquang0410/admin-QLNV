@@ -1,0 +1,172 @@
+.login {
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.form-group {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 500px;
+  height: 475px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-image: linear-gradient(to right top, #4258d0 35%, #c950c1);
+}
+.form-group_forgot {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-image: linear-gradient(to right top, #4258d0 35%, #c950c1);
+}
+.form-group_reset {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-image: linear-gradient(to right top, #4258d0 35%, #c950c1);
+}
+.form-group h1 {
+  margin-bottom: 60px;
+  color: white;
+}
+
+.btn-login {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  background-color: #80d0c7;
+  color: white;
+  cursor: pointer;
+}
+.btn-reset {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  background-color: #80d0c7;
+  color: white;
+  cursor: pointer;
+  margin-top: 34px;
+}
+
+.logo-login {
+  position: absolute;
+  top: 1em;
+  left: 2em;
+}
+.login-google {
+  margin-top: 54px;
+  margin-bottom: 10px;
+}
+.login_gg {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: snow;
+  color: #000;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  background-image: url("../images/gg.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: left center;
+  background-position-x: 20px;
+  padding-left: 23px;
+  border-color: snow;
+}
+.forgot-pass {
+  position: absolute;
+  margin-top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.forgot-pass a {
+  color: white;
+}
+
+@media screen and (max-width: 739px) {
+  .logo-login {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .form-group {
+    width: 100vw;
+  }
+  .form-group_forgot {
+    width: 100vw;
+  }
+  .form-group_reset {
+    width: 100vw;
+  }
+  .btn-login {
+    width: 100%;
+  }
+}
+.back_login {
+  display: block;
+  color: rgb(209, 201, 201);
+  padding-top: 20px;
+  font-size: 15px;
+}
+/* CSS  LAYOUT USERS, CATEGORY */
+
+.list {
+  min-width: 650px;
+  height: fit-content;
+  text-align: center;
+}
+.search-and-add {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.table-list {
+  width: 100%;
+  height: 80%;
+}
+.paging-list {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* loading */
